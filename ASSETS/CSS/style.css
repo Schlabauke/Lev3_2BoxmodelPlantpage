@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2 {
+    font-family: 'Fredericka the Great', cursive;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+li:hover , span:hover , a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*  Header Style */
+header {
+    background-image: url("../IMG/palmen.jpeg");
+    background-size: cover;   
+    background-position: center; 
+}
+header h1 {
+    color:#fff;
+    padding: 10px 0px 10px 100px;
+}
+header section {
+    width: 300px;
+    margin: 20vh auto;
+    text-align: center;
+    color:#fff;
+    /* border: 3px solid antiquewhite; */
+}
+header section h2 {
+    margin-bottom: 20px;
+        
+}
+header section p {
+    margin-bottom: 25px;
+}
+header section a {
+    border:2px solid #fff;
+    padding:5px 15px;
+}
+a:hover {
+    background-color: white;
+    color:black;
+}
+header ul {
+    text-align: right;
+    padding:0px 80px 50px 0px;
+}
+header ul li {
+    margin-bottom: 15px;
+}
+
+/* Main Style */
+main section {
+    width:600px;
+    text-align: center;
+    margin:40px auto;
+    /* border:2px solid black; */
+}
+main section h2 {
+    padding:10px 15px 25px 15px ;
+}
+main section > p {
+    margin-bottom: 30px;
+}
+main section div {
+    border:5px double black;
+    width: 200px;
+    padding:10px;
+    margin: 15px 0px 0px 200px;
+}
+main section div a {
+    color:black;
+}
+/* Footer Style */
+footer {
+    background-color: #3A3B4B;
+    color:white;
+    font-size: 12px;
+}
+footer section {
+    width: 550px;
+    padding: 15px 0px 0px 15px;
+    /* border:2px solid whitesmoke;  */  
+}
+footer section p {
+    margin-bottom: 20px;
+}
+footer section a {
+    border:2px solid white;
+    padding:5px 20px;
+}
+footer nav ul li {
+    text-align: right;
+    display: inline-block;
+    padding:5px 0px 5px 5px;
+}
+footer nav ul {
+    padding-left: 103em;
+}
